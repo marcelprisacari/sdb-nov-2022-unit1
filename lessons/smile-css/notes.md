@@ -1,0 +1,5 @@
+- create an index.html
+- create an index.css
+- add bolier plate to idnex.html
+- link the styles sheet to index.html
+- make the body background of the html #eee for the color
