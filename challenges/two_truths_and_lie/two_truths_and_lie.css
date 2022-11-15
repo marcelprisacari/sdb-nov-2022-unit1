@@ -1,0 +1,30 @@
+.bigbox {
+    border: thick solid black;
+    border-radius: 5px;
+    background-color: grey;
+    text-align: center;
+}
+
+
+h1 {
+    color: lightgreen;
+    text-align: center;
+}
+h3 {
+    color: blue;
+}
+p {
+    color: red;
+}
+.outline-box {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    vertical-align: middle;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: inline-block; 
+    margin-bottom: 10px;
+}
+

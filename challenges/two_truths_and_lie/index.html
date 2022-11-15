@@ -1,8 +1,9 @@
-<!-- Bronze:
-      - Make an h1 tag saying 'Two Truths and a Lie'
-      - Make 3 h3 tags, each saying a short blurb about that option (example: 'Been to Russia')
-      - Make 3 p tags (one for each h3 tag), giving a short sentence elaborating that truth/lie
-      - Wrap it all in a div tag -->
+<!-- Gold:
+      - Curve the corners of that BORDER
+      - Give it a BACKGROUND COLOR of GREY
+      - Wrap each Truth/Lie in separate divs, give them each a BORDER, curve the BORDER, and make each BACKGROUND COLOR LIGHT GREY
+      - CENTER everyting in each div
+      - Line each Truth/Lie side-by-side -->
       <!DOCTYPE html>
       <html lang="en">
       <head>
@@ -10,14 +11,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Two Truths and A Lie</title>
-      </head>
+    </style>
+    <link rel="stylesheet" href="two_truths_and_lie.css"/>
+  </head>
+  
+  <body>
+  <div class="bigbox">
       <h1>Two Truths and a Lie</h1>
-      <body>
+      <div class="outline-box">
         <h3>I hate olives</h3>
         <p>Truth. I hate their taste.</p>
+      </div>
+      <div class="outline-box">
         <h3>I love history movies</h3>
-        <p>Truth. Everything history related fascinates me.</p>
+      <p>Truth. Everything history related fascinates me.</p>
+      </div>
+      <div class="outline-box">
         <h3>My dog is very well trained</h3>
-        <p>Lie. I don't have a dog.</p> 
-      </body>
-      </html>
+        <p>Lie. I don't have a dog.</p>
+      </div>
+      
+    </div> 
+    </body>
+    </html>
