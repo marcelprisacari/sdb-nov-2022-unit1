@@ -20,11 +20,11 @@ p {
 
 .outline-box {
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: lightgrey;
     vertical-align: middle;
     text-align: center;
-    height: 200px;
+    height: 150px;
     width: 200px;
     display: inline-block; 
     margin-bottom: 10px;
