@@ -1,0 +1,13 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+/* if we want to shift about and logout to far right
+.about{
+    margin-left: auto; */
+
+/* logout on the far right only
+.logout{
+    margin-left: auto;
+} */

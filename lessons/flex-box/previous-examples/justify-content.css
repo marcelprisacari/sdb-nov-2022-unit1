@@ -1,0 +1,7 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: center;
+
+}
+/* flex-start (default), flex-end, center, space-arround, space-between, space-evenly */
