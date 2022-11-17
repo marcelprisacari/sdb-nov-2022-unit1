@@ -1,0 +1,88 @@
+.wrapper{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "hero hero hero"
+    "sm-img1 sm-img2 sm-img3"
+    "sm-img4 sm-img5 sm-img6"
+    "footer footer footer";
+}
+
+@media only screen and (max-width: 600px){
+    .wrapper{
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "hero hero"
+        "sm-img1 sm-img2"
+        "sm-img3 sm-img4"
+        "sm-img5 sm-img6"
+        "footer  footer";
+    }
+}
+
+header{
+    grid-area: header;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+nav{
+    grid-area: nav;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav > a{
+    text-decoration: none;
+}
+
+.hero{
+    grid-area: hero;
+    text-align: center;
+    background-color: rgb(136, 178, 136);
+}
+
+.hero > img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+.sm-img1{
+    grid-area: sm-img1;
+}
+.sm-img2{
+    grid-area: sm-img2;
+}
+.sm-img3{
+    grid-area: sm-img3;
+}
+.sm-img4{
+    grid-area: sm-img4;
+}
+.sm-img5{
+    grid-area: sm-img5;
+}
+.sm-img6{
+    grid-area: sm-img6;
+}
+footer{
+    grid-area: footer;
+    background-color: rgba(92, 52, 152, 0.833);
+    border: 1px solid black;
+    text-align: center;
+}
+.hero-wrapper{
+    text-align: center;
+    
+}
