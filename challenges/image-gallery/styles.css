@@ -1,0 +1,10 @@
+.header{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+}
+.navbar{
+    display: block;
+    border: 1px black;
+}
+
